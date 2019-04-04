@@ -1,0 +1,26 @@
+digraph {
+ "" [shape=none]
+ "a"  [shape=doublecircle]
+
+"" -> "a,b,c,d,e"
+"" -> "c,e"
+"" -> "d,e"
+"" -> "d,e,b"
+"" -> "e"
+"a,b,c,d,e" -> "a"[label="0", weight="0"];
+"a,b,c,d,e" -> "a,b,c,d,e"[label="0", weight="0"];
+"b" -> "c"[label="1", weight="1"];
+"b" -> "c,e"[label="1", weight="1"];
+"c" -> "b"[label="0", weight="0"];
+"c,e" -> "d,e,b"[label="0", weight="0"];
+"d,e" -> "a"[label="1", weight="1"];
+"d,e,b" -> "a,b,c,d,e"[label="1", weight="1"];
+"e" -> "d,e"[label="0", weight="0"];
+"e" -> "b"[label="1", weight="1"];
+"e" -> "d,e,b"[label="1", weight="1"];
+"FUIK" -> "c"[label="0", weight="0"];
+"FUIK" -> "c,e"[label="0", weight="0"];
+"FUIK" -> "e"[label="0", weight="0"];
+"FUIK" -> "d,e"[label="1", weight="1"];
+"FUIK" -> "e"[label="1", weight="1"];
+}

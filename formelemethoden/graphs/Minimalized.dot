@@ -1,0 +1,8 @@
+digraph {
+ "" [shape=none]
+ ""  [shape=doublecircle]
+
+"" -> ""
+"" -> ""[label="a", weight="a"];
+"" -> ""[label="b", weight="b"];
+}

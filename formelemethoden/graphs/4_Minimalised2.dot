@@ -1,0 +1,36 @@
+digraph {
+ "" [shape=none]
+ "F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"  [shape=doublecircle]
+ "F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"  [shape=doublecircle]
+ "K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"  [shape=doublecircle]
+ "K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"  [shape=doublecircle]
+
+"" -> ""
+"" -> "K,J,O,M,B,A,D,G,I,S,N,P,R"
+"" -> "K,O,M,B,A,D,G,I,S,N,P,R"
+"" -> "L,E,S,Q,M,B,A,D,G,I,N,P,R"
+"" -> "L,H,S,Q,M,B,A,D,G,I,N,P,R"
+"" -> "L,Q,M,B,A,D,G,I,S,N,P,R"
+"F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="b", weight="b"];
+"F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="a", weight="a"];
+"F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="b", weight="b"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="b", weight="b"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"K,O,M,B,A,D,G,I,S,N,P,R" -> "F,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="a", weight="a"];
+"K,O,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="b", weight="b"];
+"L,E,S,Q,M,B,A,D,G,I,N,P,R" -> "FUIK"[label="a", weight="a"];
+"L,E,S,Q,M,B,A,D,G,I,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="a", weight="a"];
+"L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R" -> "K,J,O,M,B,A,D,G,I,S,N,P,R,L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R,F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"L,H,S,Q,M,B,A,D,G,I,N,P,R" -> "FUIK"[label="a", weight="a"];
+"L,H,S,Q,M,B,A,D,G,I,N,P,R" -> "L,E,S,Q,M,B,A,D,G,I,N,P,R,L,H,S,Q,M,B,A,D,G,I,N,P,R,L,Q,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+"L,Q,M,B,A,D,G,I,S,N,P,R" -> "FUIK"[label="a", weight="a"];
+"L,Q,M,B,A,D,G,I,S,N,P,R" -> "F,B,A,D,G,I,S,N,P,R,K,O,M,B,A,D,G,I,S,N,P,R"[label="b", weight="b"];
+}

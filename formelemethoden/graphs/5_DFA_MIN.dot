@@ -1,0 +1,41 @@
+digraph {
+ "" [shape=none]
+ "a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e"  [shape=doublecircle]
+ "a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e,c,c,e,a,b,c,d,e"  [shape=doublecircle]
+ "c,c,e,a,b,c,d,e,c,e"  [shape=doublecircle]
+ "c,e"  [shape=doublecircle]
+ "d,e"  [shape=doublecircle]
+ "d,e,b"  [shape=doublecircle]
+ "d,e,b,a,a,b,c,d,e,b,d,e,b,b,d,e,b"  [shape=doublecircle]
+ "e"  [shape=doublecircle]
+
+"" -> "a"
+"" -> "a,a,b,c,d,e"
+"" -> "a,a,b,c,d,e,b,d,e,b"
+"a" -> "FUIK"[label="0", weight="0"];
+"a" -> "d,e"[label="1", weight="1"];
+"a,a,b,c,d,e" -> "a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e"[label="0", weight="0"];
+"a,a,b,c,d,e" -> "FUIK"[label="1", weight="1"];
+"a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e" -> "a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e,c,c,e,a,b,c,d,e"[label="0", weight="0"];
+"a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e" -> "d,e,b"[label="1", weight="1"];
+"a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e,c,c,e,a,b,c,d,e" -> "a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e,c,c,e,a,b,c,d,e"[label="0", weight="0"];
+"a,a,b,c,d,e,a,a,b,c,d,e,b,d,e,b,a,b,c,d,e,c,c,e,a,b,c,d,e" -> "d,e,b,a,a,b,c,d,e,b,d,e,b,b,d,e,b"[label="1", weight="1"];
+"a,a,b,c,d,e,b,d,e,b" -> "c,c,e,a,b,c,d,e"[label="0", weight="0"];
+"a,a,b,c,d,e,b,d,e,b" -> "FUIK"[label="1", weight="1"];
+"a,a,b,c,d,e,b,d,e,b,b,d,e,b" -> "c,c,e,a,b,c,d,e"[label="0", weight="0"];
+"a,a,b,c,d,e,b,d,e,b,b,d,e,b" -> "e"[label="1", weight="1"];
+"c,c,e,a,b,c,d,e" -> "FUIK"[label="0", weight="0"];
+"c,c,e,a,b,c,d,e" -> "a,a,b,c,d,e,b,d,e,b,b,d,e,b"[label="1", weight="1"];
+"c,c,e,a,b,c,d,e,c,e" -> "FUIK"[label="0", weight="0"];
+"c,c,e,a,b,c,d,e,c,e" -> "a,a,b,c,d,e,b,d,e,b,b,d,e,b"[label="1", weight="1"];
+"c,e" -> "FUIK"[label="0", weight="0"];
+"c,e" -> "FUIK"[label="1", weight="1"];
+"d,e" -> "e"[label="0", weight="0"];
+"d,e" -> "FUIK"[label="1", weight="1"];
+"d,e,b" -> "c,e"[label="0", weight="0"];
+"d,e,b" -> "FUIK"[label="1", weight="1"];
+"d,e,b,a,a,b,c,d,e,b,d,e,b,b,d,e,b" -> "c,c,e,a,b,c,d,e,c,e"[label="0", weight="0"];
+"d,e,b,a,a,b,c,d,e,b,d,e,b,b,d,e,b" -> "e"[label="1", weight="1"];
+"e" -> "FUIK"[label="0", weight="0"];
+"e" -> "FUIK"[label="1", weight="1"];
+}

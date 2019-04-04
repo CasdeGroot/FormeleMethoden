@@ -1,0 +1,26 @@
+digraph {
+ "" [shape=none]
+ "G,D,A,F,B,M,O,Q,P,N"  [shape=doublecircle]
+ "I,D,A,F,B,M,O,Q,R,N"  [shape=doublecircle]
+ "J,L,R,F,N,M,O,Q"  [shape=doublecircle]
+ "K,P,F,N,M,O,Q"  [shape=doublecircle]
+ "P,F,N,M,O,Q"  [shape=doublecircle]
+ "R,F,N,M,O,Q"  [shape=doublecircle]
+ "S,A,F,B,M,O,Q,C,E,H"  [shape=doublecircle]
+
+"" -> "S,A,F,B,M,O,Q,C,E,H"
+"G,D,A,F,B,M,O,Q,P,N" -> "P,F,N,M,O,Q"[label="a", weight="a"];
+"G,D,A,F,B,M,O,Q,P,N" -> "R,F,N,M,O,Q"[label="b", weight="b"];
+"I,D,A,F,B,M,O,Q,R,N" -> "P,F,N,M,O,Q"[label="a", weight="a"];
+"I,D,A,F,B,M,O,Q,R,N" -> "R,F,N,M,O,Q"[label="b", weight="b"];
+"J,L,R,F,N,M,O,Q" -> "K,P,F,N,M,O,Q"[label="a", weight="a"];
+"J,L,R,F,N,M,O,Q" -> "I,D,A,F,B,M,O,Q,R,N"[label="b", weight="b"];
+"K,P,F,N,M,O,Q" -> "G,D,A,F,B,M,O,Q,P,N"[label="a", weight="a"];
+"K,P,F,N,M,O,Q" -> "R,F,N,M,O,Q"[label="b", weight="b"];
+"P,F,N,M,O,Q" -> "P,F,N,M,O,Q"[label="a", weight="a"];
+"P,F,N,M,O,Q" -> "R,F,N,M,O,Q"[label="b", weight="b"];
+"R,F,N,M,O,Q" -> "P,F,N,M,O,Q"[label="a", weight="a"];
+"R,F,N,M,O,Q" -> "R,F,N,M,O,Q"[label="b", weight="b"];
+"S,A,F,B,M,O,Q,C,E,H" -> "P,F,N,M,O,Q"[label="a", weight="a"];
+"S,A,F,B,M,O,Q,C,E,H" -> "J,L,R,F,N,M,O,Q"[label="b", weight="b"];
+}
